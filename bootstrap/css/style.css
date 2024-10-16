@@ -1,0 +1,30 @@
+body{
+    background-color: var(--bs-gray-dark);
+    color: rgb(222, 226, 230);
+}
+
+.text-body-secondary{
+    color: rgb(222, 226, 230);
+}
+
+.fs-4{
+    color: white;
+}
+
+@font-face {
+    font-family: bleach;
+    src: url(../font/FontBleach.ttf);
+}
+
+.font-bleach{
+    font-family: bleach;
+}
+
+#secundarios img{
+    width: 9rem;
+    height: 7rem;
+}
+
+#secundarios img:hover{
+    filter: saturate(0);
+}
