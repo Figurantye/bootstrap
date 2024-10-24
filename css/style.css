@@ -45,3 +45,7 @@ body{
     object-fit: cover;
     object-position: -30px;
 }
+
+iframe{
+    width: 25%;
+}
